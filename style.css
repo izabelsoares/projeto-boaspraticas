@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-color: cover;
+    background: #BFD1D9;
+    height: 100vh;
+}
+
+header {
+    background: linear-gradient(180deg, #D2A295 23.96%, #BFD1D9 100%);
+    height: 30vh;
+}
+
+.header-start {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 3rem;
+    color: white;
+    line-height: 30px;
+}
+
+.header-paragraph {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: #9D7F7F;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    padding: 6rem;
+}
+
+.time-topic, .food-topic, .gym-topic {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.main-time, .main-food, .main-gym {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.time-photo, .food-photo {
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.gym-photo {
+    width: 160px;
+    border-radius: 50%;
+}
+
+.time-text, .food-text, .gym-text {
+    width: 300px;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+
+.box {
+    border-radius: 50%;
+    background-color: white;
+    width: 160px;
+    height: 150px;
+    margin-bottom: 7rem;
+    margin-right: 1rem;
+}
